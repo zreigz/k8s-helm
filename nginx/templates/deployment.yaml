@@ -3,10 +3,9 @@ kind: Deployment
 metadata:
   name: {{ template "nginx.fullname" . }}
   labels:
-    heritage: {{ .Release.Service }}
-    release: {{ .Release.Name }}
-    chart: {{ .Chart.Name }}-{{ .Chart.Version }}
-    app: {{ template "nginx.name" . }}
+    helm.sh/chart: {{ .Chart.Name }}-{{ .Chart.Version }}
+    app.kubernetes.io/instance: {{ .Release.Name }}
+    app.kubernetes.io/name: {{ template "nginx.name" . }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
