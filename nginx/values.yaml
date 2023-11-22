@@ -32,3 +32,5 @@ podAnnotations: {}
 resources: {}
 
 nodeSelector: {}
+nameOverride: ""
+fullnameOverride: ""
