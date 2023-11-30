@@ -1,8 +1,6 @@
 apiVersion: v1
 kind: Service
 metadata:
-  annotations:
-    config.kubernetes.io/depends-on: /namespaces/{{ .Release.Namespace }}/Deployment/nginx-nginx,/namespaces/{{ .Release.Namespace }}/ConfigMap/nginx-nginx
   labels:
     app: {{ template "nginx.name" . }}
     chart: {{ .Chart.Name }}-{{ .Chart.Version }}
