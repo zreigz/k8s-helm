@@ -6,7 +6,7 @@ replicaCount: 1
 restartPolicy: Never
 
 # Evaluated by the post-install hook
-sleepyTime: "10"
+sleepyTime: "160"
 
 index: >-
   <h1>Hello</h1>
