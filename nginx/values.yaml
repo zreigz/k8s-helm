@@ -6,11 +6,11 @@ replicaCount: 1
 restartPolicy: Never
 
 # Evaluated by the post-install hook
-sleepyTime: "160"
+sleepyTime: "180"
 
 index: >-
   <h1>Hello</h1>
-  <p>This is a test</p>
+  <p>This is a test hello</p>
 
 image:
   repository: nginx
