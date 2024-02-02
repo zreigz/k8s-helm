@@ -9,12 +9,12 @@ restartPolicy: Never
 sleepyTime: "180"
 
 index: >-
-  <h1>Hello</h1>
+  <h1>Hello drrr</h1>
   <p>This is a test hello</p>
 
 image:
   repository: nginx
-  tag: 1.24.0
+  tag: 1.25.3
   pullPolicy: IfNotPresent
 
 service:
