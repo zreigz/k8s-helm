@@ -9,7 +9,7 @@ restartPolicy: Never
 sleepyTime: "180"
 
 index: >-
-  <h1>Hello</h1>
+  <h1>Hello Lukasz</h1>
   <p>This is a test hello</p>
 
 image:
